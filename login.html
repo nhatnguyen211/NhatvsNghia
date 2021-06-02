@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Login to Clover Leaf</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        body{
+    margin: 0;
+    padding: 0;
+    background-position: center;
+    background-image: url(backgroundlogin.jpg);
+    font-family: 'Times New Roman', Times, serif;
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgb(44, 41, 41);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 7px;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -45px;
+    left: 110px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="username"], input[type="password"]{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #fff;
+    background: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 40px;
+    width: 220px;
+    margin-left: 20px;
+    background: rgb(187, 109, 46);
+    color: white;
+    font-size: 18px;
+    border-radius: 15px;
+}
+.loginbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: powderblue;
+    color: black;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+}
+.loginbox a:hover{
+    color: powderblue;
+}
+.loginbox input[type="home"]{
+    border: none;
+    outline: none;
+    height: 20px;
+    width: 130px;
+    background: rgb(187, 109, 46);
+    color: white;
+    font-size: 15px;
+    border-radius: 8px;
+    text-align: center;
+    position: relative;
+    left: 50px;
+    top: 100px;
+    padding: 10px;
+}
+.loginbox input[type="home"]:hover{
+    cursor: pointer;
+    background: powderblue;
+    color: black;
+}
+.fab{
+    margin: 10px 0 0 20px;
+    position: relative;
+    left: 50px;
+}
+.facebook{
+  color: rgb(43, 43, 151);
+}
+.instagram{
+  color: pink;
+}
+.twitter{
+  color: rgb(37, 107, 212);
+}
+.youtube{
+  color: rgb(184, 43, 43);
+}
+    </style>
+<body>
+    <div class="loginbox">
+    <img src="clover.png" class="avatar">
+        <h1>Đăng nhập</h1>
+        <form>
+            <p><i class="fas fa-user"></i> Tài khoản</p>
+            <input type="username" name="" placeholder="Username...">
+            <p><i <i class="fas fa-key"></i> Mật khẩu</p>
+            <input type="password" name="" placeholder="Password...">
+            <input type="submit" name="" value="Đăng nhập">
+            <a href="#">Đăng kí tài khoản Clover Leaf?</a><br>
+            <a href="#">Đăng nhập bằng tài khoản mạng xã hội?</a><br>
+            <a href="https://www.facebook.com/Nhatdauroi/" title="Facebook"><i class="fab fa-facebook-f facebook"></i></a>
+            <a href="https://www.instagram.com/amiins.312/" title="Instagram"><i class="fab fa-instagram instagram"></i></a>
+            <a href="http://www.twitter.com/" title="Twitter"><i class="fab fa-twitter twitter"></i></a>
+            <a href="http://www.youtube.com/" title="Youtube"><i class="fab fa-youtube youtube"></i></a>
+            <a href="websitetintuc.html"><input type="home" name="" value="Trở lại trang chủ.."></a>
+        </form>        
+    </div>
+</body>
+</head>
+</html>
